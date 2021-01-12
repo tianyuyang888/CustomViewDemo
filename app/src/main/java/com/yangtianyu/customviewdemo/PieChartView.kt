@@ -11,8 +11,8 @@ import kotlin.math.sin
 
 class PieChartView(context: Context?, attrs: AttributeSet?) : View(context, attrs) {
 
-    private val RADIUS = 150f.dp
-    private val OFFSET = 20f.dp
+    private val RADIUS = 150f.px
+    private val OFFSET = 20f.px
     private val ANGLES = floatArrayOf(60f, 80f, 120f, 100f)
     private val COLORS = listOf(
         Color.parseColor("#ff0000"),

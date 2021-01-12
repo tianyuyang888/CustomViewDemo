@@ -52,10 +52,10 @@ class DashBoardView(context: Context?, attrs: AttributeSet?) : View(context, att
             0, 0
         ).apply {
             try {
-                dashRadius = getFloat(R.styleable.DashBoardView_dashRadius, 120f).dp
-                pointerLength = getFloat(R.styleable.DashBoardView_pointerLength, 100f).dp
-                shapeWidth = getFloat(R.styleable.DashBoardView_shapeWidth, 2f).dp
-                shapeHeight = getFloat(R.styleable.DashBoardView_shapeHeight, 10f).dp
+                dashRadius = getFloat(R.styleable.DashBoardView_dashRadius, 120f).px
+                pointerLength = getFloat(R.styleable.DashBoardView_pointerLength, 100f).px
+                shapeWidth = getFloat(R.styleable.DashBoardView_shapeWidth, 2f).px
+                shapeHeight = getFloat(R.styleable.DashBoardView_shapeHeight, 10f).px
                 dashAngle = getInt(R.styleable.DashBoardView_dashAngle, 120)
                 pointer = getInt(R.styleable.DashBoardView_pointer, 5)
             } finally {
@@ -71,7 +71,7 @@ class DashBoardView(context: Context?, attrs: AttributeSet?) : View(context, att
 
     private val dashPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         style = Paint.Style.STROKE
-        strokeWidth = 2f.dp
+        strokeWidth = 2f.px
     }
 
     private val scalePaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
