@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <declare-styleable name="DashBoardView">
+        <attr name="dashRadius" format="float" />
+        <attr name="dashAngle" format="integer" />
+        <attr name="pointerLength" format="float" />
+        <attr name="shapeWidth" format="float" />
+        <attr name="shapeHeight" format="float" />
+        <attr name="pointer" format="integer" />
+    </declare-styleable>
 </resources>
