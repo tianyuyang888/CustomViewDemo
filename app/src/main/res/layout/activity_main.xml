@@ -6,17 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.yangtianyu.customviewdemo.DashBoardView
+    <com.yangtianyu.customviewdemo.AvatarView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:dashRadius="120"
-        app:dashAngle="60"
-        app:shapeWidth="5"
-        app:shapeHeight="10"
-        app:pointer="10"
-        app:pointerLength="100"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
