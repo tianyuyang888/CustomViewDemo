@@ -5,8 +5,8 @@ import android.graphics.*
 import android.util.AttributeSet
 import android.view.View
 
-private val IMAGE_PADDING = 50f.px
-private val IMAGE_WIDTH = 200f.px
+private val IMAGE_PADDING = 50f.dp
+private val IMAGE_WIDTH = 200f.dp
 private val XFERMODE = PorterDuffXfermode(PorterDuff.Mode.SRC_IN)
 
 
@@ -15,7 +15,7 @@ class AvatarView(context: Context?, attrs: AttributeSet?) : View(context, attrs)
     private val paint = Paint(Paint.ANTI_ALIAS_FLAG)
     private val boundaryPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         style = Paint.Style.STROKE
-        strokeWidth = 10f.px
+        strokeWidth = 10f.dp
         color = Color.parseColor("#999999")
     }
     private val rectF = RectF(
